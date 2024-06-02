@@ -13,7 +13,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Login />} />
     <Route path='/signup' element={<SignUp />} />
     <Route path='/home' element={<App />} />
-    <Route path="/uploads/:imageId.img" element={<ImageView />} />
+    <Route path="/uploads/:imageId" element={<ImageView />} />
     </>
   )
 )

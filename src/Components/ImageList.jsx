@@ -11,7 +11,7 @@ const ImageList = ({ images, Delete }) => {
       { images.length !== 0 ? (images.map((image) => (
         <div key={image.id} className=' flex gap-2 items-center border-b-2 border-slate-700 p-2 w-full justify-between'>
           <Link
-            to={`/uploads/${image.id}.img`}
+            to={`/uploads/${image.id}`}
             target='_blank'
           >
           
